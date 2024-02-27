@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const start_time_seconds =
       parseInt(hours) * 3600 + parseInt(minutes) * 60 + parseInt(seconds);
 
-    const remaining_seconds = (20 - current_hours) * 3600;
+    const remaining_seconds = (10 - current_hours) * 3600;
 
     const end_time_seconds = start_time_seconds + remaining_seconds;
 
